@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Data">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{5871f0d0-f192-48ba-a1f6-120261a9abd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance\LowBound">
+      <UniqueIdentifier>{c839a830-0308-4293-a55e-bf77fa35dd2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Project.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Population.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="Genetic.cpp">
+      <Filter>Algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Activity.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Chromosome.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Population.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Genetic.h">
+      <Filter>Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Instance.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Deploy\Instance\j30\j301_1.sm">
+      <Filter>Instance</Filter>
+    </None>
+    <None Include="..\Deploy\Instance\j60\j601_1.sm">
+      <Filter>Instance</Filter>
+    </None>
+    <None Include="..\Deploy\Instance\j90\j901_1.sm">
+      <Filter>Instance</Filter>
+    </None>
+    <None Include="..\Deploy\Instance\j120\j1201_1.sm">
+      <Filter>Instance</Filter>
+    </None>
+    <None Include="..\Deploy\Instance\lowerBound\j30opt.sm">
+      <Filter>Instance\LowBound</Filter>
+    </None>
+    <None Include="..\Deploy\Instance\lowerBound\j90lb.sm">
+      <Filter>Instance\LowBound</Filter>
+    </None>
+    <None Include="..\Deploy\Instance\lowerBound\j120lb.sm">
+      <Filter>Instance\LowBound</Filter>
+    </None>
+  </ItemGroup>
+</Project>
