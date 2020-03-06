@@ -38,9 +38,6 @@
     <ClInclude Include="Resource.h">
       <Filter>Data</Filter>
     </ClInclude>
-    <ClInclude Include="Solution.h">
-      <Filter>Data</Filter>
-    </ClInclude>
     <ClInclude Include="Chromosome.h">
       <Filter>Algorithm</Filter>
     </ClInclude>

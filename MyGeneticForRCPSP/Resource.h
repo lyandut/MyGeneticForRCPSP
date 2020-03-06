@@ -23,9 +23,7 @@ public:
 		return oss.str();
 	}
 
-	void resetResourceProfile() {
-		resourceProfile.assign(planningHorizon, 0);
-	}
+	void resetResourceProfile() { resourceProfile.assign(planningHorizon, 0); }
 
 	int getResourceId() { return resourceId; }
 
@@ -33,12 +31,7 @@ public:
 
 	void setResourceProfile(Time period, int newProfile) { resourceProfile[period] = newProfile; }
 
-	void updateResourceProfile(Time period, int delta) { 
-		if (resourceProfile[period] + delta > resourceUpperBound) {
-			std::cout << "Error" << std::endl;
-		}
-		resourceProfile[period] += delta;
-	}
+	void updateResourceProfile(Time period, int delta) { resourceProfile[period] += delta; }
 
 	int getResourceUpperBound() { return resourceUpperBound; }
 

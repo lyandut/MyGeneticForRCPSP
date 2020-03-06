@@ -189,7 +189,6 @@
     </ClInclude>
     <ClInclude Include="Project.h" />
     <ClInclude Include="Resource.h" />
-    <ClInclude Include="Solution.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Deploy\Instance\j120\j1201_1.sm" />
